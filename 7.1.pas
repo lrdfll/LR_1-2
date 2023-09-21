@@ -6,7 +6,7 @@ var
 begin
   writeln('Введите целое трехзначное число');
   readln(x);
-  a := x div 10;
+  a := x div 100;
   b := (x div 10) mod 10;
   c := x mod 10;
   writeln('Последняя цифра числа =', c);
