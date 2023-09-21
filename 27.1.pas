@@ -23,7 +23,7 @@ begin
     if (max = b) and (max = (sqr(a) + sqr(c))) then
       writeln('rectangular');
     if (max = c) and (max = (sqr(a) + sqr(b))) then
-      writeln('acute');
+      writeln('rectangular');
     if (max = a) and (max < (sqr(b) + sqr(c))) then
       writeln('acute');
     if (max = b) and (max < (sqr(a) + sqr(c))) then
